@@ -12,13 +12,13 @@ function listeyekle()
 
   if(gırılen != "")
     {
-      eklenen = document.createElement("li");// li tıpınde nesne olusturuldu.
+      eklenen = document.createElement("li");
       document.getElementById("listyapılacak").appendChild(eklenen);// ul altında li' ye cocuk eleman olarak ekle.
       eklenen.innerHTML= gırılen;
 
-      btntamamla = document.createElement("img");// img tıpınde nesne olusturduk.
+      btntamamla = document.createElement("img");
       eklenen.appendChild(btntamamla);
-      btntamamla.setAttribute("src","resimler/onay.png");// bu metot ile nesneye ozellık eklıyoruz.
+      btntamamla.setAttribute("src","resimler/onay.png");
       btntamamla. setAttribute("id","resimtamamla");
       btntamamla. setAttribute("width","30px");
       btntamamla. setAttribute("height","30px");
@@ -28,7 +28,7 @@ function listeyekle()
         bulamadıgı ıcın btnsil nesnesını calıstırmıyor.
       */
 
-      btnsıl = document.createElement("img");// img tıpınde nesne olusturduk.
+      btnsıl = document.createElement("img");
       eklenen.appendChild(btnsıl);
       btnsıl.setAttribute("src","resimler/iptal.png");// bu metot ile nesneye ozellık eklıyoruz.
       btnsıl. setAttribute("id","resimsil");
