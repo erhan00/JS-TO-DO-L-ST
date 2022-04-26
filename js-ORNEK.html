@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+ <head>
+  <meta content="width=device-width, initial-scale=1" name="viewport" charset="utf-8">
+  <title>JS-ornk</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="bootstrap.js" type="text/css"></script>
+  <script src="main.js"></script>
+ </head>
+<body>
+ <div class="container mt-3" style="height: 600PX; border-style: double; border-color: rgb(177, 39, 39);">
+     <h4 class="text-danger mx-5 mt-3">YAPILACAKLAR LİSTESİ / TO DO LİST</h4>
+
+     <form action="#">
+      <div class="row">
+        
+      <div class="col-7">
+       <label for="aktivite" class="form-label text-primary mt-5 mx-5"><h5>Yapılacak Aktivite Ekle :</h5></label>
+       <input id="YAPILACAK" type="text" class="form-control mx-5 mb-4" placeholder="* aktivite" style="width: 450px;">
+
+       <div class="text-success mx-5" style="border-style: double; width: 500px;">Yapılacaklar
+        
+         <ul id="listyapılacak">
+            <!--yapılacaklar list-->
+         </ul>
+        </div>
+
+      </div>
+      
+      <div class="col-5">
+        <label for="eklebutton" class="form-label text-primary mt-5"><h5>Ekle :</h5></label>
+        <input id="BTNEKLE" type="button" onclick="listeyekle();"  value="Yapılacak Listesine Ekle" 
+        class="form-control mb-4" style="width: 400px; background-color: cadetblue;">
+      
+        <div class="text-success" style="border-style: double;">Tamamlananlar
+        
+         <ul id="listetamamlanan">
+            <!--tamamlanan list-->
+         </ul>
+        </div>
+
+      </div>
+    </div>
+    </form>
+
+           
+ 
+  </div>
+</body>
+</html>
